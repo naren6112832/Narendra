@@ -1,0 +1,197 @@
+#device{
+    height: 400px;
+    width: 350px;
+    border: 2px solid rgb(69, 49, 69);
+    position: absolute;
+    top:100px;
+    left: 38%;
+    background-color:#b4b9cc;
+}
+#ballet{
+    height: 600px;
+    width: 500px;
+    border: 2px solid rgb(56, 56, 56);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background-color: #b7bccf;
+    display: none;
+}
+#device-display{
+    border-radius: 10px;
+    height: 80px;
+    width: 300px;
+    border: 3.5px solid gray;
+    background-color: black;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.arrow-image{
+    height: 30px;
+    width: 30px;
+}
+#partys-unordered-list img{
+    margin-top: 6px;
+    height: 35px;
+    width: 35px;
+}
+#display-image{
+    position: absolute;
+    top: 20px;
+    left: 140px;
+    height: 40px;
+    width: 40px;
+    display: none;
+}
+#votesare{
+    position: absolute;
+    top: 40px;
+    left: 140px;
+    z-index: 9;
+    color: #ffffff;
+    font-size: 1.2rem;
+    display: none;
+}
+ul{
+    list-style: none;
+}
+#partys-list{
+    height: 500px;
+    width: 240px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    background-color: #c5d0e2;
+    border:3px solid #5d5f64;
+}
+#partys-list ul{
+    height: 450px;
+    width: 220px;
+    position: absolute;
+    top: -39px;
+    left: -35px;
+}
+#partys-list ul li:first-child{
+    margin-top: 60px;
+}
+#partys-list ul li{
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(230, 100, 100);
+    height: 46px;
+    border-radius: 7px;
+    width: 230px;
+    background-image:linear-gradient(#ffffff,#d2fdfc);
+}
+#partys-list ul li img{
+    float: right;
+    margin-right: 15px;
+}
+#partys-buttons{
+    height: 460px;
+    width: 140px;
+    position: absolute;
+    top: 70px;
+    left: 267px;
+    border:3px solid #5d5f64;
+}
+#partys-buttons ul{
+    position: absolute;
+    top: -16px;
+    left: -40px;
+    height: 464px;
+    width: 140px;
+}
+#partys-buttons ul li{
+    display: block;
+    height: 45px;
+    width: 140px;
+    border-bottom: 1px solid;
+}
+#partys-buttons ul li img,#partys-buttons ul li button{
+    margin-left: 15px;
+    margin-top: 6px;
+}
+#partys-buttons ul li button{
+    margin-top: 5p;
+    height: 30px;
+    width: 57px;
+    border: 0px;
+    border-radius: 15px;
+    background-image:linear-gradient(#282e42,#1e4669);
+}
+#power-indicator{
+    position: absolute;
+    border: 1px solid;
+    top: 140px;
+    right: 20px;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: red;
+}
+#power-button{
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    height: 40px;
+    width: 40px;
+    /* background-color: green; */
+    background-image: url('sources/power.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: green;
+}
+#reset-button{
+    background-color: red;
+    color: yellow;
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    top: 240px;
+    left: 30px;
+}
+#count-button{
+    background-color: grey;
+    color: white;
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    top: 240px;
+    right: 30px;
+}
+#option1,#option2,#option3,#option4,#option5,#option6{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+}
+#option1{
+    top: 290px;
+    left: 35px;
+}
+#option2{
+    top: 290px;
+    left: 90px;
+}
+#option3{
+    top: 290px;
+    right: 90px;
+}
+#option4{
+    top: 290px;
+    right: 35px;
+}
+#option5{
+    top: 340px;
+    right: 90px;
+}
+#option6{
+    top: 340px;
+    right: 35px;
+}
+button{
+    font-size: 1.5rem;
+}
